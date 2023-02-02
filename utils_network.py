@@ -2,11 +2,6 @@ import networkx as nx
 import glob
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib 
-
-# array of the density we want to analyze
-density_analysis_array = [0.705, 0.710, 0.715, 0.720, 0.725, 0.730, 0.735, 0.740] 
-colors = matplotlib.cm.rainbow(np.linspace(0, 1, len(density_analysis_array)))
 
 def graph_plotting(G, style=None):
     plt.clf()
